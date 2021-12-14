@@ -53,9 +53,16 @@
                 <img src="assets/img/nav-light.png" alt="Decorative light bulbs hanging" class="nav__img">
             </div>
 
-            <div class="nav__toggle" id="nav-toggle">
-                <i class='bx bx-grid-alt'></i>
+            <div class="nav__btns">
+                <!-- Theme change buttons -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
             </div>
+
         </nav>
     </header>
 
@@ -118,7 +125,7 @@
                         offering blessings to your loved ones,
                         friends and neighbors, wishing them a good Christmas message
                     </p>
-                    
+
                     <a href="#" class="button">Send Good Wishes</a>
                 </div>
 
@@ -165,7 +172,8 @@
                 </article>
 
                 <article class="gift__card">
-                    <img src="assets/img/gift5.png" alt="a Santa's Cane or a Peppermint Christmas Cane" class="gift__img">
+                    <img src="assets/img/gift5.png" alt="a Santa's Cane or a Peppermint Christmas Cane"
+                        class="gift__img">
                     <i class="bx bx-heart gift__icon"></i>
 
                     <h3 class="gift__price">$12</h3>
@@ -182,7 +190,9 @@
 
             <div class="new__container">
                 <div class="swiper new-swiper">
+
                     <div class="swiper-wrapper">
+
                         <article class="new__card swiper-slide">
                             <div class="new__overlay"></div>
 
@@ -230,6 +240,7 @@
                                 <i class="bx bx-heart new__icon"></i>
                             </button>
                         </article>
+                        
                     </div>
 
                     <div class="swiper-pagination"></div>
@@ -251,6 +262,7 @@
                 <img src="assets/img/message.png" alt="an envelope saying, 'Merry Christmas'" class="message__img">
             </div>
         </section>
+
     </main>
 
     <!--=============== FOOTER ===============-->
@@ -316,9 +328,12 @@
     </footer>
 
     <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+    </a>
 
     <!--=============== SCROLL REVEAL ===============-->
-    <script src=""></script>
+    <script src="./assets/js/scrollreveal.min.js"></script>
 
     <!--=============== SWIPER JS ===============-->
     <script src="assets/js/swiper-bundle.min.js"></script>
